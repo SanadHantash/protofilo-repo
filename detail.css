@@ -1,0 +1,127 @@
+.background
+{
+    background-image: url(events.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 1800px;
+}
+
+.details{
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 400px;
+    padding: 40px;
+    box-shadow: 5px 5px gray;
+    text-shadow: 1px 1px 3px black;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.details h3
+{ 
+    font-size: 25px;
+}
+
+
+.figma
+{
+    background-color: rgb(64, 157, 160);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+    border-radius: 15px;
+    box-shadow: 1px -1px 3px rgb(173, 231, 233);
+    margin-top: 20px;
+    margin-left: 800px;
+}
+
+.feedback
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left:400px ;
+    margin-top: 70px;
+}
+
+.feedback input{
+    width: 450px;
+}
+.feedback button
+{
+    background-color: rgb(64, 157, 160);;
+    color: white;
+    border-radius: 15px;
+}
+.footer
+{
+    background-color: hsla(0, 0%, 0%, 0.877);
+    color: white;
+    height: 300px;
+    margin-top:200px;
+}
+
+.footer .information
+{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.information div{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.information a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.message
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left:200px ;
+    margin-top: 10px;
+}
+
+.message input{
+    width: 350px;
+}
+.message button
+{
+    background-color: rgb(64, 157, 160);;
+    color: white;
+    border-radius: 15px;
+}
+
+.footer .links a .github{
+    color: black;
+}
+.footer .links a .linkedin{
+    color: #0072b1;
+}
+.footer .github
+{   border-radius: 50%;
+    color: black;
+}
+.footer .linkedin
+{
+    color: #0072b1;
+    margin-left: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer .flex
+{
+    margin-left: 700px;
+    display: flex;
+}
